@@ -3,7 +3,7 @@ A unique slug generator for laravel
 
 ## Instalation
 ```sh
-composer require tarek/laravel-unique-slug
+composer require tarek111/laravel-unique-slug
 ```
 
 ## Use from controller
@@ -25,7 +25,7 @@ UniqueSlug::generate(User::class,'john doe','name');
 
 ### publish configuration
 ```sh
-php artisan vendor:publish "tarek/laravel-unique-slug"
+php artisan vendor:publish "tarek111/laravel-unique-slug"
 ```
 ## Contribution
 Your are open to create any pull request.

@@ -18,7 +18,6 @@ class UniqueSlug
     public function generate($model, $title, $field, $separator = null)
     {
         $separator = empty($separator) ? config('laravel-unique-slug.separator') : $separator;
-
         $id = 0;
 
         $slug =  preg_replace('/\s+/', $separator, (trim(strtolower($title))));
