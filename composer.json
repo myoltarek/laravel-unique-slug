@@ -1,7 +1,12 @@
 {
     "name": "tarek111/laravel-unique-slug",
     "description": "A unique slug generator for laravel",
-    "type": "composer-plugin",
+    "keywords": [
+        ":vendor_slug",
+        "laravel",
+        ":packge_slug"
+    ],
+    "homepage": "https://github.com/:vendor_slug/:packge_slug",
     "license": "MIT",
     "autoload": {
         "psr-4": {
