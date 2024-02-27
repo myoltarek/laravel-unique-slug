@@ -6,7 +6,7 @@
         "laravel",
         ":packge_slug"
     ],
-    "homepage": "https://github.com/:vendor_slug/:packge_slug",
+    "homepage": "https://github.com/myoltarek/laravel-unique-slug",
     "license": "MIT",
     "autoload": {
         "psr-4": {
