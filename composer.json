@@ -2,9 +2,9 @@
     "name": "tarek111/laravel-unique-slug",
     "description": "A unique slug generator for laravel",
     "keywords": [
-        ":vendor_slug",
+        "laravel_unique_slug",
         "laravel",
-        ":packge_slug"
+        "laravel-unique-slug"
     ],
     "homepage": "https://github.com/myoltarek/laravel-unique-slug",
     "license": "MIT",
