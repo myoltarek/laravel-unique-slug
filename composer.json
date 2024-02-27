@@ -1,0 +1,30 @@
+{
+    "name": "tarek/laravel-unique-slug",
+    "description": "A unique slug generator for laravel",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tarek\\LaravelUniqueSlug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tarek"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tarek\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Tarek\\LaravelUniqueSlug\\UniqueSlug"
+            }
+        }
+    }
+}
