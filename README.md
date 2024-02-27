@@ -25,7 +25,7 @@ UniqueSlug::generate(User::class,'john doe','name');
 
 ### publish configuration
 ```sh
-php artisan vendor:publish tarek/laravel-unique-slug
+php artisan vendor:publish "tarek/laravel-unique-slug"
 ```
 ## Contribution
 Your are open to create any pull request.
