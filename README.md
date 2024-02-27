@@ -15,11 +15,11 @@ use Tarek\LaravelUniqueSlug\Facades\UniqueSlug;
 
 ```php
 UniqueSlug::generate(User::class,'john doe','name');
-//jogn-doe
+//john-doe
 
 //After creating a new user with name john doe then again hit
 UniqueSlug::generate(User::class,'john doe','name');
-//jogn-doe-1
+//john-doe-1
 ```
 
 
